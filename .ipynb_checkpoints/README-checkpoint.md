@@ -18,9 +18,28 @@
 ## Contains Missing Values  
   - air_temperature        0.48%
   - cloud_coverage        43.66%
+    - High Corlation with:
+      - ```wind_speed```(0.23)
+      - ```precip_depth_1_hr```(0.12)
+      - ```dew_temperature```(0.15)
+      - ```year_built```(0.18)
+      - ```site_id```(-0.24)
+      - ```building_id```(-0.25)
+      - ```meter```(-0.18)
   - dew_temperature        0.50%
   - precip_depth_1_hr     18.54%
+    - High Corlation with:
+      - ```cloud_coverage```(0.12)
   - sea_level_pressure     6.09%
+    - High Corlation with:
+      - ```air_temperature```(-0.48)
+      - ```building_id```(0.16)
+      - ```site_id```(0.13)
+      - ```year_built```(-0.14)
+      - ```dew_temperature```(-0.26)
+      - ```wind_speed```(-0.16)
   - wind_direction         7.17%
+    - High Corlation with:
+      - ```dew_temperature```(-0.19)
+      - ```wind_direction```(0.5)
   - wind_speed             0.71%
-  
