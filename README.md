@@ -8,7 +8,6 @@
       - ```primary_use```
       - ```meter```
       
-
 ## Highly Corlated Features  
   - ```dew_temperature```, ```air_temperature``` 0.72
   - ```sea_level_presure```, ```air_temperature``` -0.47
@@ -55,3 +54,6 @@
      - SW = 247.5
      - W  = 292.5
      - NW = 337.7
+  - Mean average encode ```year_built```
+  - do something with ```meter``` and ```meter_reading```
+  - **Missing ```primary_use``` for building**
