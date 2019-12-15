@@ -43,3 +43,7 @@
       - ```dew_temperature```(-0.19)
       - ```wind_direction```(0.5)
   - wind_speed             0.71%
+  
+ ## Other Nots:
+   - ```DT_day_week``` range from 0 to 6, 0 is Sunday and 6 is Saturday
+   - 

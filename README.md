@@ -43,3 +43,15 @@
       - ```dew_temperature```(-0.19)
       - ```wind_direction```(0.5)
   - wind_speed             0.71%
+  
+ ## Other Nots:
+   - ```DT_day_week``` range from 0 to 6, 0 is Sunday and 6 is Saturday
+   - Group wind in to N,NE,E,SE,S,SW,W,NW
+     - N  = 337.5-22.5
+     - NE = 67.5
+     - E  = 112.5
+     - SE = 157.5
+     - S  = 202.5
+     - SW = 247.5
+     - W  = 292.5
+     - NW = 337.7
