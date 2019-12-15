@@ -56,4 +56,13 @@
      - NW = 337.7
   - Mean average encode ```year_built```
   - do something with ```meter``` and ```meter_reading```
-  - **Missing ```primary_use``` for building**
+  - ~~~**Missing ```primary_use``` for building**~~~
+  - Filled missing value:
+    - fillna: 
+        - ```year_built_mean_encode``` fillavg
+        - ```cloud_coverage``` fillavg or fill0
+        - ```dew_temperature``` fillavg
+        - ```precip_depth_1_hr``` fillavg / fill0
+        - ```sea_level_pressure``` fillavg
+        - ```wind_speed``` fillavg / fill0
+        - ```year_built_mean_encode``` fillavg = fill0
